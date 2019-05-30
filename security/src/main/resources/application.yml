@@ -2,7 +2,7 @@
 spring:
   datasource:
     druid:
-      url: jdbc:mysql://47.106.84.158:3306/fun_chat
+      url: jdbc:mysql://47.106.84.158:3306/fun_chat?characterEncoding=utf8&useSSL=false
       username: root
       password: Zp123...
       initial-size: 1
@@ -19,3 +19,6 @@ spring:
       test-on-return: false
       pool-prepared-statements: true
       max-pool-prepared-statement-per-connection-size: 20
+  redis:
+    host: 47.106.84.158
+    password: Zp123...
